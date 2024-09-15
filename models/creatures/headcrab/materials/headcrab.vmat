@@ -1,0 +1,92 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "vr_xen_foliage.vfx"
+
+	//---- Decals ----
+	F_SUPPORTS_DECALS 1
+
+	//---- Game ----
+	F_REFLEX_SIGHT_ACTIVE 1
+
+	//---- Self Illum ----
+	F_SELF_ILLUM 1
+
+	//---- Ambient Occlusion ----
+	g_flAmbientOcclusionDirectDiffuse "1.000"
+	g_flAmbientOcclusionDirectSpecular "1.000"
+	g_vAmbientOcclusionColorBleed "[0.000000 0.000000 0.000000 0.000000]"
+	TextureAmbientOcclusion "models/creatures/headcrab/materials/fast_headcrab_ambientocclusionmap.png"
+
+	//---- Blood Material ----
+	g_bBloodUseUV2 "0"
+	g_flBloodMetalness "0.000"
+	g_flDecalSize "12.000"
+	g_flDecalTileFactor "1.000"
+	g_nDecalSlot "3"
+	g_nDecalSlots "4"
+	g_vBloodColor "[0.196078 0.149020 0.054902 1.000000]"
+	g_vBloodSelfIllumTint "[0.160784 0.160784 0.160784 1.000000]"
+	TextureBloodDecal "models/creatures/headcrab/materials/hc_gore_decal_blood.png"
+	TextureColorBlood "models/creatures/headcrab/materials/fast_headcrab_bloodcolormap.png"
+	TextureDecalIDMask "models/creatures/headcrab/materials/fast_headcrab_colordecalid.png"
+	TextureHeightDecal "models/creatures/headcrab/materials/hc_gore_decal_blood_9c583bd8_height.png"
+	TextureNormalBlood "models/creatures/headcrab/materials/fast_headcrab_bloodnormalmap.png"
+	TextureRoughnessBlood "models/creatures/headcrab/materials/fast_headcrab_bloodroughnessmap.png"
+	TextureSelfIllumMaskBlood "materials/default/default_selfillum.tga"
+
+	//---- Color ----
+	g_vColorTint "[0.835294 0.835294 0.835294 1.000000]"
+	TextureColor "models/creatures/headcrab/materials/fast_headcrab_colormap.png"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Lighting ----
+	g_flDirectionalLightmapMinZ "0.050"
+	g_flDirectionalLightmapStrength "1.000"
+
+	//---- Normal ----
+	g_flDiffuseNormalBlur "0.500"
+	TextureNormal "models/creatures/headcrab/materials/fast_headcrab_normalmap.png"
+
+	//---- Roughness ----
+	TextureRoughness "models/creatures/headcrab/materials/fast_headcrab_roughnessmap.png"
+
+	//---- Self Illum ----
+	g_flSelfIllumBrightness "3.000"
+	g_flSelfIllumCustomFlowTimer "0.000"
+	g_flSelfIllumFlowAmount "0.950"
+	g_flSelfIllumFlowFrequency "0.000"
+	g_flSelfIllumFlowSpeed "0.500"
+	g_flSelfIllumOverallScale "1.000"
+	g_vSelfIllumTint "[0.862745 0.078431 0.235294 1.000000]"
+	TextureSelfIllumFlowPhase "models/creatures/headcrab/materials/fast_headcrab_selfillumphase.png"
+	TextureSelfIllumFlowWaveform "models/creatures/headcrab/materials/fast_headcrab_selfillumwavepsd.png"
+	TextureSelfIllumMask "models/creatures/headcrab/materials/fast_headcrab_selfillummap.png"
+
+	//---- Texture Coordinates ----
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+
+	//---- Transmission ----
+	g_flDiffuseExponent "2.000"
+	g_flDiffuseWrap "0.350"
+	g_flTransmissionFalloffDistance "75.000"
+	g_vDiffuseWrapColor "[1.000000 0.501961 0.301961 0.000000]"
+	g_vTransmissionColor "[0.000000 0.000000 0.000000 0.000000]"
+	g_vTransmissionFalloffColor "[0.000000 0.000000 0.000000 1.000000]"
+	TextureTransmissiveMask "models/creatures/headcrab/materials/fast_headcrab_transmissivemap.png"
+
+	//---- Xen ----
+	g_bRespondsToXenExcitation "1"
+	g_bRespondsToXenExcitation "1"
+	g_flXenMovementScale "1.000"
+	g_vXenWorldSpaceMotionScale "[1.000 1.000 1.000]"
+
+	SystemAttributes
+	{
+		PhysicsSurfaceProperties "npc_headcrab_flesh"
+	}
+}
