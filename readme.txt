@@ -6,6 +6,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=3308356996
 WHAT'S NEW IN THIS PREFAB VERSION (2.0):
 
 -Optional Half-Life 2 fast headcrab inspired texture, by khepera
+
 -Animated fast headcrab leg texture, by khepera
 
 INSTALLATION:
@@ -87,5 +88,4 @@ chrjen: Original NPC animgraph troubleshooting
 
 THG: Additional material resources
 
-ambientCG: NPC color blood map was created using Leather 024 from ambientCG.com, licensed under the Creative Commons CC0 1.0 Universal License,
-https://ambientcg.com/a/Leather024
+ambientCG: NPC color blood map was created using Leather 024 from ambientCG.com, licensed under the Creative Commons CC0 1.0 Universal License, https://ambientcg.com/a/Leather024
