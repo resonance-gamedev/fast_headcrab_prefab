@@ -3,11 +3,18 @@ that you credit the Fast Headcrab Restored team by linking to the Steam Workshop
 
 https://steamcommunity.com/sharedfiles/filedetails/?id=3308356996
 
+WHAT'S NEW IN THIS PREFAB VERSION (2.0):
+
+-Optional Half-Life 2 fast headcrab inspired texture, by khepera
+-Animated fast headcrab leg texture, by khepera
+
 INSTALLATION:
 
 1) Merge the included animgraphs, maps, models, prefabs, soundevents, and sounds folders into your custom Half-Life: Alyx addon located at
 
 \Steam\steamapps\common\Half-Life Alyx\content\hlvr_addons\[your_project_name]
+
+If you would like to use the Half-Life 2 fast headcrab inspired texture, replace the default "models" folder with the "models" folder from within "HL2 Variant Material.zip"
 
 2) In your addon resourcemanifests folder, open the resourcemanifest file and add the following to the list of manifests:
 
